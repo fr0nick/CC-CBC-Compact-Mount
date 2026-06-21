@@ -1,0 +1,14 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE (IntelliJ IDEA, Eclipse)
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+bin/
+out/
+run/

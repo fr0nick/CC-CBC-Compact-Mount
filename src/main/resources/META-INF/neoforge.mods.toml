@@ -1,0 +1,44 @@
+modLoader    = "javafml"
+loaderVersion = "[4,)"
+license      = "Apache 2.0"
+
+[[mixins]]
+    config = "cc_cbc_compact_mount.mixins.json"
+
+[[mods]]
+    modId       = "cc_cbc_compact_mount"
+    version     = "1.0.0"
+    displayName = "CC:CBC Compact Mount"
+    description = '''
+Adds a CC: Tweaked peripheral for CBC: Compact Mount.
+'''
+    authors  = "fr0nick"
+    logoFile = "icon.png"
+
+[[dependencies.cc_cbc_compact_mount]]
+    modId        = "neoforge"
+    type         = "required"
+    versionRange = "[21.1,)"
+    ordering     = "NONE"
+    side         = "BOTH"
+
+[[dependencies.cc_cbc_compact_mount]]
+    modId        = "computercraft"
+    type         = "required"
+    versionRange = "[1.116.0,)"
+    ordering     = "AFTER"
+    side         = "BOTH"
+
+[[dependencies.cc_cbc_compact_mount]]
+    modId        = "createbigcannons"
+    type         = "required"
+    versionRange = "[5.11,)"
+    ordering     = "AFTER"
+    side         = "BOTH"
+
+[[dependencies.cc_cbc_compact_mount]]
+    modId        = "cbc_compact_mount"
+    type         = "required"
+    versionRange = "[1.2,)"
+    ordering     = "AFTER"
+    side         = "BOTH"
